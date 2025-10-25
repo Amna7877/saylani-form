@@ -7,7 +7,7 @@ A fully responsive **Contact / Registration Form** built with **HTML, CSS, and J
 ## 💡 Overview
 
 This project is developed as part of my **Frontend Development Training** under **Saylani Mass IT Training (SMIT)**.  
-It demonstrates form validation, error handling, Firebase integration, and responsive UI — all created without frameworks, using only pure HTML, CSS, and JavaScript.
+It demonstrates form validation, error handling, Firebase integration, and responsive UI — all created with bootstrap framework and HTML, CSS, and JavaScript.
 
 ---
 
@@ -52,7 +52,8 @@ const firebaseConfig = {
 
 🚀 Live Demo
 
-🌐 Live Site: View on Netlify
+🌐 Live Site:🔗 (https://saylani-form-register.netlify.app)(#)
+
 
 💾 GitHub Repo: Saylani Form Project
 Github Link:🔗(https://github.com/Amna7877/saylani-form)(#)
