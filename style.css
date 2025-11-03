@@ -1,0 +1,176 @@
+:root{
+--header-bg: url('assets/bg.jpg');
+--bg:#f8f9fa;
+--default-text-color:#243238;
+--green:#71b84f;
+--blue:#2b75d6;
+--small-text:#6c7a89;
+--btn:#64b5f6;
+}
+
+@font-face{
+font-family: 'Roboto_Condensed';
+src: url('fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf') format('truetype'),;}
+
+body {
+font-family: 'RobotoCondensed-Regular.ttf', sans-serif;
+background: var(--bg);
+color: var(--default-text-color);
+margin: 0;
+}
+
+header {
+background-image:
+linear-gradient(180deg, rgba(255,255,255,0.95), rgba(255,255,255,0.85)),
+linear-gradient(120deg, rgba(7,94,84,0.06), rgba(43,117,214,0.03)),var(--header-bg);
+background-size: cover;
+background-position: center;
+padding: 20px 0 0px;
+border-bottom: 1px solid rgba(0,0,0,0.04);
+}
+
+.header-container {
+gap: 1rem;
+align-items: center;
+padding-top: 4px;
+padding-bottom: 8px;
+display: flex;
+justify-content: space-between;
+gap: 1rem;
+flex-wrap: wrap;
+}
+
+.icons, .social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-icons a {
+display: inline-flex;
+align-items: center;
+justify-content: center;
+width: 36px;
+height: 36px;
+border-radius: 50%;
+box-shadow: 0 6px 18px rgba(9,30,63,0.08);
+font-size: 18px;
+transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+transform: scale(1.1);
+box-shadow: 0 8px 24px rgba(9,30,63,0.12);
+}
+
+
+.logo {
+text-align: center;
+}
+
+.saylani-logo {
+width: 160px;
+height: auto;
+display: block;
+margin: 0 auto 6px;
+}
+
+.main-heading {
+font-size: 28px;
+margin: 0;
+color: #0b2b2a;
+font-weight: 700;
+letter-spacing: 0.2px;
+}
+
+.sub-heading {
+font-size: 14px;
+margin: 0;
+color: var(--small-text);
+}
+
+.nav-pages{
+margin-top: 15px;
+background: var(--bg);
+padding-bottom: 14px;
+}
+
+.nav-link{
+color: var(--blue);
+background: #f8fafc;
+}
+
+.nav-link:hover:focus{
+color: var(--green);
+background: #f8fafc;
+}
+
+.form-card{
+width: 100%;
+max-width: 980px;
+border-radius: 12px;
+border: 1px solid var(--green);
+overflow: hidden;
+}
+
+.form-control, .form-select, .form-label {
+border-color: var(--green);
+}
+.form-label{
+color: var(--blue);}
+.form-control:focus, .form-select:focus{
+border-color: var(--blue);  
+box-shadow: 0 0 0 0.15rem rgba(44, 129, 198, 0.12);
+}
+
+.btn-submit {
+background: var(--btn);
+color: var(--bg);
+padding: 10px 36px;
+font-weight: 600;
+}
+
+.btn-submit:hover{ transform: translateY(-2px); 
+box-shadow:0 8px 20px rgba(43,117,214,0.12);
+}
+
+.portal-btn {
+color: var(--blue);
+border: 1.5px solid var(--blue);
+font-weight: 500;
+transition: all 0.3s ease;
+}
+
+.portal-btn:hover{
+background-color: var(--bg);
+color: var(--green);
+border: #73a8d6;
+}
+
+.cnic-input {
+border: 1px solid rgba(113,184,79,0.45); 
+border-radius:6px;
+}
+
+.is-invalid {
+border: 1px solid red !important;
+background-color: #fff5f5;
+}
+
+.error-msg {
+font-size: 13px;
+}
+
+.small.text-muted li{
+margin-bottom: 6px;
+}
+
+@media (max-width:991px){
+.saylani-logo { width: 120px;}
+.main-heading {font-size: 22px;}
+.form-card{margin: 0 18px;}
+}
+
+@media (max-width:576px){
+.header-container{flex-direction: column; gap: 8px; text-align: center;}}
