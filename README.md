@@ -58,14 +58,14 @@ window.db = getFirestore(app);
 
 🚀 Live Demo
 
-🌐 Live Site:🔗 (https://saylani-form-register.netlify.app)(#)
+🌐 Live Site:🔗https://saylani-form-register.netlify.app
 
 
 💾 GitHub Repo: Saylani Form Project
-Github Link:🔗(https://github.com/Amna7877/saylani-form)(#)
+Github Link:🔗https://github.com/Amna7877/saylani-form
 
 🔗 LinkedIn
-(https://www.linkedin.com/in/amna-mehmood-611430371/)(#)
+https://www.linkedin.com/in/amna-mehmood-611430371
 
 👩‍💻 Author
 
