@@ -71,5 +71,5 @@ Github Link:🔗(https://github.com/Amna7877/saylani-form)(#)
 
 Amna Mehmood
 🎓 Frontend Development Student @ SMIT
-💻 Beginner Frontend Developer
+💻 Frontend Developer
 
