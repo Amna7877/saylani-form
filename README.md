@@ -53,7 +53,7 @@ window.db = getFirestore(app);
 ```
 
 ----
-----
+
 .
 
 🚀 Live Demo
@@ -73,6 +73,3 @@ Amna Mehmood
 🎓 Frontend Development Student @ SMIT
 💻 Beginner Frontend Developer
 
-🔗 LinkedIn
-
-https://www.linkedin.com/in/amna-mehmood-611430371/
