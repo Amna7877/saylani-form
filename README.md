@@ -47,6 +47,12 @@ const firebaseConfig = {
   messagingSenderId: "YOUR_SENDER_ID",
   appId: "YOUR_APP_ID"
 };
+
+const app = initializeApp(firebaseConfig);
+window.db = getFirestore(app);
+```
+
+----
 ----
 .
 
@@ -58,6 +64,9 @@ const firebaseConfig = {
 💾 GitHub Repo: Saylani Form Project
 Github Link:🔗(https://github.com/Amna7877/saylani-form)(#)
 
+🔗 LinkedIn
+(https://www.linkedin.com/in/amna-mehmood-611430371/)(#)
+
 👩‍💻 Author
 
 Amna Mehmood
@@ -67,5 +76,3 @@ Amna Mehmood
 🔗 LinkedIn
 
 https://www.linkedin.com/in/amna-mehmood-611430371/
-const app = initializeApp(firebaseConfig);
-window.db = getFirestore(app);
